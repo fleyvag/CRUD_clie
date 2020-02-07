@@ -1,0 +1,17 @@
+{
+    "name": "vendor/siscont1",
+    "description": "software basico",
+    "authors": [
+        {
+            "name": "Frank",
+            "email": "leyva.gomez.frank@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "require": {}
+}
