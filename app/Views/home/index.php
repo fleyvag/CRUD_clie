@@ -1,12 +1,12 @@
 <h2 class="page-header">Empleados</h2>
 
-<table class="table table-striped table-bordered table-hover">
+<table class="table table-striped table-hover">
     <thead>
         <tr class="info">
-            <th style="width:100px;">Id</th>
-            <th style="width:100px;">Nombre</th>
-            <th style="width:100px;">Apellido</th>
-            <th style="width:100px;">Telefono</th>
+            
+            <th style="padding-left:30px;">Nombre</th>
+            <th style="width:80px;">Telefono</th>
+            
 
         </tr>
     </thead>
@@ -15,9 +15,12 @@
         <?php foreach($model as $m): ?>
         
         <tr>
-            <td><?php echo $m->id_clie; ?></td>
-            <td><?php echo $m->nom_clie; ?></td>
-            <td><?php echo $m->ape_clie; ?></td>
+            <td style="padding-left:30px;">
+            <a href="?c=home&a=crud&id=<?php echo $m->id_clie ?>">
+                <?php echo $m->nom_clie; ?><?php echo ' ' ?><?php echo  $m->ape_clie; ?>
+                
+            </a>
+            </td>
             <td><?php echo $m->telefono; ?></td>
             
         </tr>

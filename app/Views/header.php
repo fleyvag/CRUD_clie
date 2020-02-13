@@ -15,6 +15,9 @@
          <h1 style=color:white >Mi primera pagina de prueba</h1>
        </div>
     </nav>
+    <div class="container">
+        <div class="row">
+        <div class="col-xs-12">
        
        </header>
     
